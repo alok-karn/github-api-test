@@ -1,7 +1,6 @@
 const getGitHubRepos = async () => {
     const token = process.env.GITHUB_TOKEN;
-    // const token =
-    // "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";
+
     const apiURL = "https://api.github.com/users/alok-karn/repos";
 
     try {
